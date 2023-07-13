@@ -1,0 +1,153 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+body div {
+    padding: 0px 0px 50px 0px;
+}
+
+
+.head-img {
+    width: 200px;
+    height: auto;
+    margin: 0px 100px;
+}
+
+.landing-container {
+    display: flex;
+    background-color: #1f2937;
+    justify-content: space-around;
+}
+
+.container {
+    width: 75%;
+}
+
+.header, .footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.header h2 {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.links, .hero div p, .footer p{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.links a {
+    padding: 10px;
+    text-decoration: underline;
+    color: #E5E7EB;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.hero div h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+
+button {
+    background-color: #3882f6;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 25px;
+    color: #E5E7EB;
+    font-weight: 700;
+}
+
+.information-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.information-section h2 {
+    text-align: center;
+    font-weight: extra-bold;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.random-information {
+    display: flex;
+    justify-content: space-around;
+}
+
+.information-img {
+    width: 125px;
+    height: auto;
+    border-radius: 12px;
+    border-color: #3882f6;
+}
+
+.quote-container {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+}
+
+.quote-container div h1 {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    font-weight: lighter;
+    padding: 10% 0px 0px 0px;
+    text-align: left;
+}
+
+.quote-container div h3 {
+    text-align: right;
+    font-weight: extra-bold;
+}
+
+.cta-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.cta, .footer{
+    background-color: #3882f6;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+}
+
+.cta div {
+    padding: 0;
+}
+
+.cta div h2 {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+
+#cta-button {
+    border-radius: 8px;
+    border: 2px solid #E5E7EB;
+}
+
+.footer {
+    border-radius: 0px;
+    background-color:#1f2937;
+}
+
